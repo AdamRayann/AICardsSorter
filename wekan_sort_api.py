@@ -145,7 +145,7 @@ def create_card_batch(card_batch, BOARD_ID, LIST_ID, SWIMLANE_ID, USER_ID):
             if response.status_code == 200:
                 print(f"✅ Created card '{card['title']}'")
             else:
-                print(f"❌ Failed to create card '{card['title']}': {response.status_code} | {response.text}")
+                print(f"❌ Failed to create card '{card['title']}' : {response.status_code} | {response.text}")
 
             time.sleep(0.1)  # Small delay to prevent overwhelming Wekan API
 
