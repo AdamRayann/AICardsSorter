@@ -5,7 +5,7 @@ from config import BASE_URL, USERNAME, PASSWORD
 HEADERS = {}
 
 
-def get_api_token(username, password):
+def get_api_token(username=USERNAME, password=PASSWORD):
     """
     Logs into Wekan and retrieves an API token & user ID.
     """
