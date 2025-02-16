@@ -1,9 +1,7 @@
 import requests
 import json
+from config import BASE_URL, USERNAME, PASSWORD
 
-BASE_URL = "http://localhost:3000"
-USERNAME = "adminn"
-PASSWORD = "adminn"
 HEADERS = {}
 
 
@@ -17,8 +15,8 @@ def get_api_token(username, password):
 
     response = requests.post(url, json=payload, headers=headers)
 
-    print(f"Login API Response Status Code: {response.status_code}")
-    print(f"Login API Response Text: {response.text}")
+    #print(f"Login API Response Status Code: {response.status_code}")
+    #print(f"Login API Response Text: {response.text}")
 
     if response.status_code == 200:
         data = response.json()
@@ -29,8 +27,8 @@ def get_api_token(username, password):
             print("Error: Token not found in response!")
             return None
 
-        print(" API Token Retrieved:", token)
-        print("User ID:", user_id)
+        #print(" API Token Retrieved:", token)
+        #print("User ID:", user_id)
 
         global HEADERS
         HEADERS = {
@@ -38,11 +36,10 @@ def get_api_token(username, password):
             "Accept": "application/json",
             "Content-Type": "application/json"
         }
-        return user_id,token
+        return user_id, token
     else:
         print("Error: Unable to retrieve API token.")
         return None
-
 
 
 def get_boards(user_id):
@@ -52,8 +49,8 @@ def get_boards(user_id):
     url = f"{BASE_URL}/api/users/{user_id}/boards"
     response = requests.get(url, headers=HEADERS)
 
-    print("Status Code:", response.status_code)
-    print("Raw Response:", response.text)
+    #print("Status Code:", response.status_code)
+    #print("Raw Response:", response.text)
 
     if response.status_code == 200:
         try:
@@ -103,9 +100,9 @@ def get_cards(board_id, list_id):
 
     response = requests.get(url, headers=HEADERS)
 
-    print("Response Status Code:", response.status_code)
-    print("Response Headers:", response.headers)
-    print("Response Content:", response.text)
+    #print("Response Status Code:", response.status_code)
+    #print("Response Headers:", response.headers)
+    #print("Response Content:", response.text)
 
     if response.status_code == 200:
         try:
@@ -160,21 +157,3 @@ def fetch_tasks(board_id, list_id):
     return tasks
 
 
-def main():
-    user_id = get_api_token(USERNAME, PASSWORD)[0]
-    if not user_id:
-        print("Failed to authenticate.")
-        return
-    board_id = get_boards(user_id)
-    if not board_id:
-        return
-
-    list_id = get_lists(board_id)
-    if not list_id:
-        return
-
-    get_cards(board_id, list_id)
-
-
-# if __name__ == "__main__":
-#     main()
