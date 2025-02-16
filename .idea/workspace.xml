@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22d2a5f1-afea-4115-9eb9-9bacaea5b6ec" name="Changes" comment="code updated">
-      <change afterPath="$PROJECT_DIR$/../aiCardsSort/create_worker.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aiCardsSort/delete_worker.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aiCardsSort/massage_broker.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../aiCardsSort/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/../aiCardsSort/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aiCardsSort/create_worker.py" beforeDir="false" afterPath="$PROJECT_DIR$/../aiCardsSort/create_worker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aiCardsSort/delete_worker.py" beforeDir="false" afterPath="$PROJECT_DIR$/../aiCardsSort/delete_worker.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../aiCardsSort/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../aiCardsSort/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aiCardsSort/wekan_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/../aiCardsSort/wekan_api.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +26,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/../aiCardsSort" value="main" />
+        <entry key="$PROJECT_DIR$/../aiCardsSort" value="RMQ_branch" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../aiCardsSort" />
@@ -52,7 +50,7 @@
     "Python.wekan_sort_api.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "RMQ__branch",
+    "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -61,7 +59,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.create_worker">
     <configuration name="create_worker" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="aiCardsSort" />
       <option name="ENV_FILES" value="" />
@@ -133,9 +131,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.create_worker" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.delete_worker" />
-        <item itemvalue="Python.create_worker" />
+        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +169,15 @@
       <option name="project" value="LOCAL‎" />
       <updated>1739646599581</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL‎-00002" summary="code updated">
+      <option name="closed" value="true" />
+      <created>1739722082120</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL‎-00002" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1739722082121</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,11 +199,11 @@
     <option name="LAST_COMMIT_MESSAGE" value="code updated" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/pythonProject$main.coverage" NAME="main Coverage Results" MODIFIED="1739721427486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../aiCardsSort" />
-    <SUITE FILE_PATH="coverage/pythonProject$delete_worker.coverage" NAME="delete_worker Coverage Results" MODIFIED="1739721418943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../aiCardsSort" />
+    <SUITE FILE_PATH="coverage/pythonProject$main.coverage" NAME="main Coverage Results" MODIFIED="1739729555280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../aiCardsSort" />
+    <SUITE FILE_PATH="coverage/pythonProject$delete_worker.coverage" NAME="delete_worker Coverage Results" MODIFIED="1739729356252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../aiCardsSort" />
     <SUITE FILE_PATH="coverage/fetch_ai_cards_py$wekan_sort_api.coverage" NAME="wekan_sort_api Coverage Results" MODIFIED="1739554764519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../aiCardsSort" />
     <SUITE FILE_PATH="coverage/pythonProject$task_manager.coverage" NAME="task_manager Coverage Results" MODIFIED="1739708942715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../aiCardsSort" />
-    <SUITE FILE_PATH="coverage/pythonProject$create_worker.coverage" NAME="create_worker Coverage Results" MODIFIED="1739721412327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../aiCardsSort" />
+    <SUITE FILE_PATH="coverage/pythonProject$create_worker.coverage" NAME="create_worker Coverage Results" MODIFIED="1739730500120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../aiCardsSort" />
     <SUITE FILE_PATH="coverage/pythonProject$wekan_sort_api.coverage" NAME="wekan_sort_api Coverage Results" MODIFIED="1739707062191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../aiCardsSort" />
     <SUITE FILE_PATH="coverage/pythonProject$fetch_ai_cards.coverage" NAME="fetch_ai_cards Coverage Results" MODIFIED="1739633736824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
