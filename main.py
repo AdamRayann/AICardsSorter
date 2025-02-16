@@ -78,7 +78,8 @@ def get_sorted_wekan_tasks(board_id, list_id):
 
             swimlane_id = tasks[0]["swimlaneId"]
             user_id = wekan_api.get_api_token(wekan_api.USERNAME, wekan_api.PASSWORD)[0]
-            for task in tasks:
+            sorted_tasks = ai_sorter.parse_sorted_tasks(llama_output)
+            for task in sorted_tasks:
                 card_data = {"title": task["title"], "board_id": board_id, "list_id": list_id,
                              "swimlane_id": swimlane_id, "user_id": user_id}
                 send_to_rabbitmq(config.CREATE_QUEUE, card_data)

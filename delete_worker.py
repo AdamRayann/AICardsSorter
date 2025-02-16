@@ -14,9 +14,9 @@ async def delete_card(card_id, board_id, list_id):
         async with session.delete(url, headers=wekan_api.HEADERS) as response:
             response_text = await response.text()
             if response.status == 200:
-                print(f"✅ Deleted card {card_id}")
+                print(f"Deleted card {card_id}")
             else:
-                print(f"❌ Failed to delete {card_id}: {response.status} | {response_text}")
+                print(f"Failed to delete {card_id}: {response.status} | {response_text}")
 
 def callback(ch, method, properties, body):
     """Handles messages from RabbitMQ queue."""
@@ -30,7 +30,7 @@ def main():
     channel = connection.channel()
     channel.queue_declare(queue=config.DELETE_QUEUE, durable=True)
     channel.basic_consume(queue=config.DELETE_QUEUE, on_message_callback=callback)
-    print("🐇 Delete Worker Listening...")
+    print("Delete Worker Listening...")
     channel.start_consuming()
 
 if __name__ == "__main__":
