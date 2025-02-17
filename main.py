@@ -9,6 +9,10 @@ from massage_broker import send_to_rabbitmq
 app = Flask(__name__)
 
 
+@app.route('/')
+def home():
+    return "Hi, there is no GUI here."
+
 @app.route('/api/sorted-tasks', methods=['POST'])
 def reorder_wekan_tasks():
     """
