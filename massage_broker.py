@@ -10,17 +10,17 @@ if config.USE_RMQ:
 def send_to_rabbitmq(queue_name, message):
     """Send a message to RabbitMQ if enabled."""
     if not config.USE_RMQ:
-        return  # If RMQ is disabled, do nothing
+        return
 
     connection = pika.BlockingConnection(pika.ConnectionParameters(host=config.RABBITMQ_HOST))
     channel = connection.channel()
-    channel.queue_declare(queue=queue_name, durable=True)  # Ensure queue exists
+    channel.queue_declare(queue=queue_name, durable=True)
 
     channel.basic_publish(
         exchange="",
         routing_key=queue_name,
         body=json.dumps(message),
-        properties=pika.BasicProperties(delivery_mode=2)  # Make message persistent
+        properties=pika.BasicProperties(delivery_mode=2)
     )
     connection.close()
-    print(f"📤 Sent message to {queue_name}: {message}")
+    print(f"Sent message to {queue_name}: {message}")
