@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22d2a5f1-afea-4115-9eb9-9bacaea5b6ec" name="Changes" comment="code updated">
-      <change afterPath="$PROJECT_DIR$/dockerimage.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ai_sorter.py" beforeDir="false" afterPath="$PROJECT_DIR$/ai_sorter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-    </list>
+    <list default="true" id="22d2a5f1-afea-4115-9eb9-9bacaea5b6ec" name="Changes" comment="image pushed to dockerHub" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -232,7 +227,7 @@
       <workItem from="1740220956224" duration="2802000" />
       <workItem from="1740335876380" duration="573000" />
       <workItem from="1740392143321" duration="3872000" />
-      <workItem from="1740476230576" duration="9659000" />
+      <workItem from="1740476230576" duration="10002000" />
     </task>
     <task id="LOCAL‎-00001" summary="code updated">
       <option name="closed" value="true" />
@@ -290,7 +285,23 @@
       <option name="project" value="LOCAL‎" />
       <updated>1740221148794</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL‎-00008" summary="image pushed to dockerHub">
+      <option name="closed" value="true" />
+      <created>1740496201604</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL‎-00008" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1740496201604</updated>
+    </task>
+    <task id="LOCAL‎-00009" summary="image pushed to dockerHub">
+      <option name="closed" value="true" />
+      <created>1740496474690</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL‎-00009" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1740496474690</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -309,7 +320,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="code updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="code updated" />
+    <MESSAGE value="image pushed to dockerHub" />
+    <option name="LAST_COMMIT_MESSAGE" value="image pushed to dockerHub" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/pythonProject$main.coverage" NAME="main Coverage Results" MODIFIED="1739729555280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../aiCardsSort" />
