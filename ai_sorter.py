@@ -6,6 +6,7 @@ import config
 
 
 def sort_tasks_with_llama(tasks):
+    print("sort_tasks_with_llama started", flush=True)
     """
     Sends a list of tasks to Llama (via Groq API) and retrieves a logically sorted order.
     """
