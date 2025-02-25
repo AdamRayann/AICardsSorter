@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22d2a5f1-afea-4115-9eb9-9bacaea5b6ec" name="Changes" comment="image pushed to dockerHub" />
+    <list default="true" id="22d2a5f1-afea-4115-9eb9-9bacaea5b6ec" name="Changes" comment="image pushed to dockerHub">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/dockerimage.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/dockerimage.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,6 +72,12 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\adamr\OneDrive\שולחן העבודה\BeyonDevFinal\pythonProject\.github\workflows" />
+      <recent name="C:\Users\adamr\OneDrive\שולחן העבודה\BeyonDevFinal\pythonProject\.github" />
+    </key>
+  </component>
   <component name="RunManager" selected="Python.main (1)">
     <configuration name="create_worker" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
@@ -227,7 +236,7 @@
       <workItem from="1740220956224" duration="2802000" />
       <workItem from="1740335876380" duration="573000" />
       <workItem from="1740392143321" duration="3872000" />
-      <workItem from="1740476230576" duration="10002000" />
+      <workItem from="1740476230576" duration="10264000" />
     </task>
     <task id="LOCAL‎-00001" summary="code updated">
       <option name="closed" value="true" />
@@ -301,7 +310,15 @@
       <option name="project" value="LOCAL‎" />
       <updated>1740496474690</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL‎-00010" summary="image pushed to dockerHub">
+      <option name="closed" value="true" />
+      <created>1740496554209</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL‎-00010" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1740496554209</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
