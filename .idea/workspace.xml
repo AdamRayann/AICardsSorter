@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22d2a5f1-afea-4115-9eb9-9bacaea5b6ec" name="Changes" comment="image pushed to dockerHub">
+      <change afterPath="$PROJECT_DIR$/checkStyle.flake8" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.github/workflows/dockerimage.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/dockerimage.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai_sorter.py" beforeDir="false" afterPath="$PROJECT_DIR$/ai_sorter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/task_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wekan_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/wekan_api.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -236,7 +241,10 @@
       <workItem from="1740220956224" duration="2802000" />
       <workItem from="1740335876380" duration="573000" />
       <workItem from="1740392143321" duration="3872000" />
-      <workItem from="1740476230576" duration="11267000" />
+      <workItem from="1740476230576" duration="13273000" />
+      <workItem from="1740768419522" duration="312000" />
+      <workItem from="1740911523410" duration="601000" />
+      <workItem from="1740990125106" duration="4989000" />
     </task>
     <task id="LOCAL‎-00001" summary="code updated">
       <option name="closed" value="true" />
@@ -342,7 +350,15 @@
       <option name="project" value="LOCAL‎" />
       <updated>1740496897700</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL‎-00014" summary="image pushed to dockerHub">
+      <option name="closed" value="true" />
+      <created>1740497768241</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL‎-00014" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1740497768241</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

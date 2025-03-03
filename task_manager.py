@@ -88,15 +88,10 @@ def sort_cards(sorted_titles, cards, BOARD_ID, LIST_ID, CARDS_CREATION_BATCH=con
     USER_ID = wekan_api.get_api_token(wekan_api.USERNAME, wekan_api.PASSWORD)[0]
 
     # Recreate cards in batches (faster while keeping order)
-    #print(f"Recreating {len(sorted_titles)} cards in batches of {CARDS_CREATION_BATCH}...")
+    # print(f"Recreating {len(sorted_titles)} cards in batches of {CARDS_CREATION_BATCH}...")
 
     for i in range(0, len(sorted_titles), CARDS_CREATION_BATCH):
         batch = sorted_titles[i:i + CARDS_CREATION_BATCH]
         create_card_batch(batch, BOARD_ID, LIST_ID, SWIMLANE_ID, USER_ID)
 
     print("Sorting Completed!")
-
-
-
-
-

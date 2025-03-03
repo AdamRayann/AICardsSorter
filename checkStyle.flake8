@@ -1,0 +1,11 @@
+[flake8]
+max-line-length = 120  # Increase max line length
+ignore =
+    E203, W503,  # Ignore minor whitespace issues
+    E501  # Ignore long line warnings
+exclude =
+    .git,
+    __pycache__,
+    venv,
+    build,
+    dist

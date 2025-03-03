@@ -15,8 +15,8 @@ def get_api_token(username=USERNAME, password=PASSWORD):
 
     response = requests.post(url, json=payload, headers=headers)
 
-    #print(f"Login API Response Status Code: {response.status_code}")
-    #print(f"Login API Response Text: {response.text}")
+    # print(f"Login API Response Status Code: {response.status_code}")
+    # print(f"Login API Response Text: {response.text}")
 
     if response.status_code == 200:
         data = response.json()
@@ -27,8 +27,8 @@ def get_api_token(username=USERNAME, password=PASSWORD):
             print("Error: Token not found in response!")
             return None
 
-        #print(" API Token Retrieved:", token)
-        #print("User ID:", user_id)
+        # print(" API Token Retrieved:", token)
+        # print("User ID:", user_id)
 
         global HEADERS
         HEADERS = {
@@ -49,8 +49,8 @@ def get_boards(user_id):
     url = f"{BASE_URL}/api/users/{user_id}/boards"
     response = requests.get(url, headers=HEADERS)
 
-    #print("Status Code:", response.status_code)
-    #print("Raw Response:", response.text)
+    # print("Status Code:", response.status_code)
+    # print("Raw Response:", response.text)
 
     if response.status_code == 200:
         try:
@@ -100,9 +100,9 @@ def get_cards(board_id, list_id):
 
     response = requests.get(url, headers=HEADERS)
 
-    #print("Response Status Code:", response.status_code)
-    #print("Response Headers:", response.headers)
-    #print("Response Content:", response.text)
+    # print("Response Status Code:", response.status_code)
+    # print("Response Headers:", response.headers)
+    # print("Response Content:", response.text)
 
     if response.status_code == 200:
         try:
@@ -155,5 +155,3 @@ def fetch_tasks(board_id, list_id):
         print("Error: No tasks found in this list.")
 
     return tasks
-
-
