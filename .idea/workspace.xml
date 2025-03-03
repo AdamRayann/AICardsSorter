@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22d2a5f1-afea-4115-9eb9-9bacaea5b6ec" name="Changes" comment="image pushed to dockerHub">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/styleWorkflow.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/styleWorkflow.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/workflows/unittests.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_ai_sorter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -238,7 +240,7 @@
       <workItem from="1740476230576" duration="13273000" />
       <workItem from="1740768419522" duration="312000" />
       <workItem from="1740911523410" duration="601000" />
-      <workItem from="1740990125106" duration="5296000" />
+      <workItem from="1740990125106" duration="6385000" />
     </task>
     <task id="LOCAL‎-00001" summary="code updated">
       <option name="closed" value="true" />
@@ -360,7 +362,15 @@
       <option name="project" value="LOCAL‎" />
       <updated>1741031635965</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL‎-00016" summary="image pushed to dockerHub">
+      <option name="closed" value="true" />
+      <created>1741031747432</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL‎-00016" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1741031747432</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
