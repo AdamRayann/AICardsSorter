@@ -18,11 +18,6 @@ def create_card(data):
     print(f"Created card {data['title']}" if response.status_code == 200 else f"Failed to create {data['title']}")
 
 
-# def cards_batch(data,CARDS_CREATION_BATCH=config.CARDS_CREATION_BATCH):
-#     for i in range(0, len(sorted_titles), CARDS_CREATION_BATCH):
-#         batch = sorted_titles[i:i + CARDS_CREATION_BATCH]
-#         create_card_batch(batch, BOARD_ID, LIST_ID, SWIMLANE_ID, USER_ID)
-#
 
 def callback(ch, method, properties, body):
     """Handles messages from RabbitMQ queue."""
