@@ -15,7 +15,7 @@ jobs:
       - name: Run Security Scan (Bandit)
         run: |
           pip install bandit
-          bandit -r . || true  # Run security checks but don't fail CI
+          bandit -r . || true  
 
   style-check:
     runs-on: ubuntu-latest
