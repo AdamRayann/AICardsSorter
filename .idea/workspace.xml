@@ -241,7 +241,8 @@
       <workItem from="1740990125106" duration="7147000" />
       <workItem from="1741078154872" duration="2446000" />
       <workItem from="1741164661453" duration="3787000" />
-      <workItem from="1741247242634" duration="1096000" />
+      <workItem from="1741247242634" duration="1592000" />
+      <workItem from="1741539264302" duration="1675000" />
     </task>
     <task id="LOCAL‎-00001" summary="code updated">
       <option name="closed" value="true" />
@@ -435,7 +436,15 @@
       <option name="project" value="LOCAL‎" />
       <updated>1741206587595</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL‎-00025" summary="image pushed to dockerHub">
+      <option name="closed" value="true" />
+      <created>1741252464413</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL‎-00025" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1741252464413</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -464,7 +473,7 @@
     <SUITE FILE_PATH="coverage/main_py$create_worker.coverage" NAME="create_worker Coverage Results" MODIFIED="1739780436556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/fetch_ai_cards_py$wekan_sort_api.coverage" NAME="wekan_sort_api Coverage Results" MODIFIED="1739554764519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../aiCardsSort" />
     <SUITE FILE_PATH="coverage/pythonProject$task_manager.coverage" NAME="task_manager Coverage Results" MODIFIED="1739708942715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../aiCardsSort" />
-    <SUITE FILE_PATH="coverage/main_py$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1740492064312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/main_py$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1741544413345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProject$create_worker.coverage" NAME="create_worker Coverage Results" MODIFIED="1739730680971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../aiCardsSort" />
     <SUITE FILE_PATH="coverage/pythonProject$wekan_sort_api.coverage" NAME="wekan_sort_api Coverage Results" MODIFIED="1739707062191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../aiCardsSort" />
     <SUITE FILE_PATH="coverage/pythonProject$fetch_ai_cards.coverage" NAME="fetch_ai_cards Coverage Results" MODIFIED="1739633736824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

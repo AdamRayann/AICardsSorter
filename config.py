@@ -4,7 +4,7 @@ BASE_URL = os.getenv("BASE_URL", "http://localhost:3000")  # Use Docker service 
 
 USERNAME = "adminn"
 PASSWORD = "adminn"
-GROQ_API_KEY = "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"
+GROQ_API_KEY = "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"
 CARDS_CREATION_BATCH = 6
 USE_RMQ = False
 RABBITMQ_HOST = "localhost"
